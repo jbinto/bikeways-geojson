@@ -7,6 +7,8 @@ Converting City of Toronto Bikeways ESRI Shapefile to something usable.
 Github supports rendering GeoJSON according to this post by a Github employee:
 http://ben.balter.com/2013/06/26/how-to-convert-shapefiles-to-geojson-for-use-on-github/
 
+**UPDATE:** The file is too complex/big for Github to parse. It spins for about 30 seconds and times out. Will need to look into how to split it up into more manageable pieces. Likely means getting my hands dirty with PostGIS.
+
 It's 50MB so I had to make a separate repository for this one file.
 
 ## Details
